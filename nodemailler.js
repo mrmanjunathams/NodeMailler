@@ -3,14 +3,14 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'bloggerbytesinfo@gmail.com',
-    pass: 'mrmanjunathams'
+    user: 'some@gmail.com',
+    pass: 'pass'
   }
 });
 
 var mailOptions = {
-    from: 'bloggerbytesinfo@gmail.com',
-    to: 'mrmanjunathams@gmail.com',
+    from: 'some@gmail.com',
+    to: 'some@gmail.com',
     subject: 'Welcome',
     text: 'Welcome to Udhyog',
    html: 'http://www.trigger2k18.com/'
